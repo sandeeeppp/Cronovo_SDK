@@ -213,6 +213,7 @@ SWIFT_CLASS("_TtC7Cronovo7Cronovo")
 - (void)insertDummyDataWithData:(NSArray<NSNumber *> * _Nonnull)data ticks:(int64_t)ticks;
 - (NSString * _Nonnull)getRestingHeartRate SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)cardiacEfficiencyForTime:(enum Duration)forTime SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getRRi SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getVO2Max SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)heartRateRecoveryForTime:(enum RecoveryTime)forTime SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)coreTemperatureWithScale:(enum Scale)scale SWIFT_WARN_UNUSED_RESULT;
@@ -455,6 +456,7 @@ SWIFT_CLASS("_TtC7Cronovo7Cronovo")
 - (void)insertDummyDataWithData:(NSArray<NSNumber *> * _Nonnull)data ticks:(int64_t)ticks;
 - (NSString * _Nonnull)getRestingHeartRate SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)cardiacEfficiencyForTime:(enum Duration)forTime SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getRRi SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getVO2Max SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)heartRateRecoveryForTime:(enum RecoveryTime)forTime SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)coreTemperatureWithScale:(enum Scale)scale SWIFT_WARN_UNUSED_RESULT;
