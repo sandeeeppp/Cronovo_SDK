@@ -214,6 +214,7 @@ SWIFT_CLASS("_TtC7Cronovo7Cronovo")
 - (NSString * _Nonnull)getRestingHeartRate SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)cardiacEfficiencyForTime:(enum Duration)forTime SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getRRi SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getHRV SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getVO2Max SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)heartRateRecoveryForTime:(enum RecoveryTime)forTime SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)coreTemperatureWithScale:(enum Scale)scale SWIFT_WARN_UNUSED_RESULT;
@@ -224,6 +225,14 @@ typedef SWIFT_ENUM(int64_t, Duration, closed) {
   DurationWeekly = 604800,
   DurationMonthly = 2678400,
   DurationAllTime = 0,
+};
+
+typedef SWIFT_ENUM(NSInteger, HeartZone, closed) {
+  HeartZoneZone1 = 50,
+  HeartZoneZone2 = 60,
+  HeartZoneZone3 = 70,
+  HeartZoneZone4 = 80,
+  HeartZoneZone5 = 90,
 };
 
 typedef SWIFT_ENUM(NSInteger, RecoveryTime, closed) {
@@ -457,6 +466,7 @@ SWIFT_CLASS("_TtC7Cronovo7Cronovo")
 - (NSString * _Nonnull)getRestingHeartRate SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)cardiacEfficiencyForTime:(enum Duration)forTime SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getRRi SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getHRV SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getVO2Max SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)heartRateRecoveryForTime:(enum RecoveryTime)forTime SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)coreTemperatureWithScale:(enum Scale)scale SWIFT_WARN_UNUSED_RESULT;
@@ -467,6 +477,14 @@ typedef SWIFT_ENUM(int64_t, Duration, closed) {
   DurationWeekly = 604800,
   DurationMonthly = 2678400,
   DurationAllTime = 0,
+};
+
+typedef SWIFT_ENUM(NSInteger, HeartZone, closed) {
+  HeartZoneZone1 = 50,
+  HeartZoneZone2 = 60,
+  HeartZoneZone3 = 70,
+  HeartZoneZone4 = 80,
+  HeartZoneZone5 = 90,
 };
 
 typedef SWIFT_ENUM(NSInteger, RecoveryTime, closed) {
