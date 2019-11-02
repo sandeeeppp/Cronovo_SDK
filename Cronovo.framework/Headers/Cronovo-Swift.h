@@ -204,6 +204,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 enum Duration : int64_t;
 enum RecoveryTime : NSInteger;
 enum Scale : NSInteger;
+enum HeartZone : NSInteger;
 
 SWIFT_CLASS("_TtC7Cronovo7Cronovo")
 @interface Cronovo : NSObject
@@ -218,6 +219,7 @@ SWIFT_CLASS("_TtC7Cronovo7Cronovo")
 - (NSString * _Nonnull)getVO2Max SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)heartRateRecoveryForTime:(enum RecoveryTime)forTime SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)coreTemperatureWithScale:(enum Scale)scale SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)heartRateZoneWithZone:(enum HeartZone)zone Age:(NSInteger)Age SWIFT_WARN_UNUSED_RESULT;
 @end
 
 typedef SWIFT_ENUM(int64_t, Duration, closed) {
@@ -456,6 +458,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 enum Duration : int64_t;
 enum RecoveryTime : NSInteger;
 enum Scale : NSInteger;
+enum HeartZone : NSInteger;
 
 SWIFT_CLASS("_TtC7Cronovo7Cronovo")
 @interface Cronovo : NSObject
@@ -470,6 +473,7 @@ SWIFT_CLASS("_TtC7Cronovo7Cronovo")
 - (NSString * _Nonnull)getVO2Max SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)heartRateRecoveryForTime:(enum RecoveryTime)forTime SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)coreTemperatureWithScale:(enum Scale)scale SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)heartRateZoneWithZone:(enum HeartZone)zone Age:(NSInteger)Age SWIFT_WARN_UNUSED_RESULT;
 @end
 
 typedef SWIFT_ENUM(int64_t, Duration, closed) {
