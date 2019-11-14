@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Cronovo-Swift.h</key>
 		<data>
-		Iw+S9Ch6LgRAwUedMbDwxzj5qdM=
+		9GvUpYoKrcyttxR+SjwbJwE3wKo=
 		</data>
 		<key>Headers/Cronovo.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		T4PbuUtITYIPMZEGa2Rl4ALzoCg=
+		w55d7Q8UTiZFhKVc9qdlJQmBR30=
 		</data>
 		<key>Modules/Cronovo.swiftmodule/arm.swiftdoc</key>
 		<data>
-		g1ANooLgHzgSU6uDvaEiuPpsVno=
+		9bDSYs/Sad1yjtobG7yT3E3Do84=
 		</data>
 		<key>Modules/Cronovo.swiftmodule/arm.swiftmodule</key>
 		<data>
-		8KmJ0KGcv0R3Awvnd1WEPiGkmto=
+		3841tHF41dlAoWQWW0Fx6CMevk0=
 		</data>
 		<key>Modules/Cronovo.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		nJT0FaEGbumottr0VfL7sn1l5I4=
+		rNwLQHN+ogfaWZy3yM3sgCLx81U=
 		</data>
 		<key>Modules/Cronovo.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		AnggKWmXQnBJOGksYj8K8hhFY9c=
+		klokBmhOJgOdlhj9LytQdMS/XOw=
 		</data>
 		<key>Modules/Cronovo.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		nJT0FaEGbumottr0VfL7sn1l5I4=
+		rNwLQHN+ogfaWZy3yM3sgCLx81U=
 		</data>
 		<key>Modules/Cronovo.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		AnggKWmXQnBJOGksYj8K8hhFY9c=
+		klokBmhOJgOdlhj9LytQdMS/XOw=
 		</data>
 		<key>Modules/Cronovo.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		g1ANooLgHzgSU6uDvaEiuPpsVno=
+		9bDSYs/Sad1yjtobG7yT3E3Do84=
 		</data>
 		<key>Modules/Cronovo.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		8KmJ0KGcv0R3Awvnd1WEPiGkmto=
+		3841tHF41dlAoWQWW0Fx6CMevk0=
 		</data>
 		<key>Modules/Cronovo.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		g1ANooLgHzgSU6uDvaEiuPpsVno=
+		9bDSYs/Sad1yjtobG7yT3E3Do84=
 		</data>
 		<key>Modules/Cronovo.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		8KmJ0KGcv0R3Awvnd1WEPiGkmto=
+		3841tHF41dlAoWQWW0Fx6CMevk0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,11 +67,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Iw+S9Ch6LgRAwUedMbDwxzj5qdM=
+			9GvUpYoKrcyttxR+SjwbJwE3wKo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Sfh55wmwXf5ofsNjYW8rQqMEd0y5r6poYitkWJVfJls=
+			i6bUCspFPmvktoey62+J2+5GgnqmN2NtwSpFaWxSbN0=
 			</data>
 		</dict>
 		<key>Headers/Cronovo.h</key>
@@ -89,110 +89,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			g1ANooLgHzgSU6uDvaEiuPpsVno=
+			9bDSYs/Sad1yjtobG7yT3E3Do84=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Il9gGG1VBQBxo5pPfvqZR0+vHk0Fl28qrr21REoPM0=
+			v7CD5/sLm7qO3kmsQWnizY3fo9c6lgoKbjXRsEUiqwA=
 			</data>
 		</dict>
 		<key>Modules/Cronovo.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8KmJ0KGcv0R3Awvnd1WEPiGkmto=
+			3841tHF41dlAoWQWW0Fx6CMevk0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mmbLCkaMD+fAc3eChkuW0XeRTRP0b4f7PTREJMwDi50=
+			1RsU/QjWCCFJMUDRvdlFmeXXz5y89gx2GZFcoeD9POc=
 			</data>
 		</dict>
 		<key>Modules/Cronovo.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nJT0FaEGbumottr0VfL7sn1l5I4=
+			rNwLQHN+ogfaWZy3yM3sgCLx81U=
 			</data>
 			<key>hash2</key>
 			<data>
-			IGsYks60WlZitFoiDxyb1yBemkBkaHbvPIVbayvzOgo=
+			TijiGdvbSIavIa8V6LeB1t6LX6m4yCJChLRSf7jloUs=
 			</data>
 		</dict>
 		<key>Modules/Cronovo.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AnggKWmXQnBJOGksYj8K8hhFY9c=
+			klokBmhOJgOdlhj9LytQdMS/XOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			T6sgT2rDbyMnsyc1HX3ZB6FqbVQ5dyRgmCXJN8Wqixo=
+			cmon9W9vaVntBBuNZO1yhH/x0RWcenSPgRhle1UfkZ4=
 			</data>
 		</dict>
 		<key>Modules/Cronovo.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nJT0FaEGbumottr0VfL7sn1l5I4=
+			rNwLQHN+ogfaWZy3yM3sgCLx81U=
 			</data>
 			<key>hash2</key>
 			<data>
-			IGsYks60WlZitFoiDxyb1yBemkBkaHbvPIVbayvzOgo=
+			TijiGdvbSIavIa8V6LeB1t6LX6m4yCJChLRSf7jloUs=
 			</data>
 		</dict>
 		<key>Modules/Cronovo.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AnggKWmXQnBJOGksYj8K8hhFY9c=
+			klokBmhOJgOdlhj9LytQdMS/XOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			T6sgT2rDbyMnsyc1HX3ZB6FqbVQ5dyRgmCXJN8Wqixo=
+			cmon9W9vaVntBBuNZO1yhH/x0RWcenSPgRhle1UfkZ4=
 			</data>
 		</dict>
 		<key>Modules/Cronovo.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g1ANooLgHzgSU6uDvaEiuPpsVno=
+			9bDSYs/Sad1yjtobG7yT3E3Do84=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Il9gGG1VBQBxo5pPfvqZR0+vHk0Fl28qrr21REoPM0=
+			v7CD5/sLm7qO3kmsQWnizY3fo9c6lgoKbjXRsEUiqwA=
 			</data>
 		</dict>
 		<key>Modules/Cronovo.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8KmJ0KGcv0R3Awvnd1WEPiGkmto=
+			3841tHF41dlAoWQWW0Fx6CMevk0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mmbLCkaMD+fAc3eChkuW0XeRTRP0b4f7PTREJMwDi50=
+			1RsU/QjWCCFJMUDRvdlFmeXXz5y89gx2GZFcoeD9POc=
 			</data>
 		</dict>
 		<key>Modules/Cronovo.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g1ANooLgHzgSU6uDvaEiuPpsVno=
+			9bDSYs/Sad1yjtobG7yT3E3Do84=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Il9gGG1VBQBxo5pPfvqZR0+vHk0Fl28qrr21REoPM0=
+			v7CD5/sLm7qO3kmsQWnizY3fo9c6lgoKbjXRsEUiqwA=
 			</data>
 		</dict>
 		<key>Modules/Cronovo.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8KmJ0KGcv0R3Awvnd1WEPiGkmto=
+			3841tHF41dlAoWQWW0Fx6CMevk0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mmbLCkaMD+fAc3eChkuW0XeRTRP0b4f7PTREJMwDi50=
+			1RsU/QjWCCFJMUDRvdlFmeXXz5y89gx2GZFcoeD9POc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
