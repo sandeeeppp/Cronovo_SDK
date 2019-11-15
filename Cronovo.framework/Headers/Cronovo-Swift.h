@@ -201,7 +201,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-enum Duration : int64_t;
+enum Duration : NSInteger;
 enum RecoveryTime : NSInteger;
 enum Scale : NSInteger;
 enum HeartZone : NSInteger;
@@ -226,7 +226,7 @@ SWIFT_CLASS("_TtC7Cronovo7Cronovo")
 - (void)deleteData;
 @end
 
-typedef SWIFT_ENUM(int64_t, Duration, closed) {
+typedef SWIFT_ENUM(NSInteger, Duration, closed) {
   DurationDaily = 86400,
   DurationWeekly = 604800,
   DurationMonthly = 2678400,
@@ -459,7 +459,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-enum Duration : int64_t;
+enum Duration : NSInteger;
 enum RecoveryTime : NSInteger;
 enum Scale : NSInteger;
 enum HeartZone : NSInteger;
@@ -484,7 +484,7 @@ SWIFT_CLASS("_TtC7Cronovo7Cronovo")
 - (void)deleteData;
 @end
 
-typedef SWIFT_ENUM(int64_t, Duration, closed) {
+typedef SWIFT_ENUM(NSInteger, Duration, closed) {
   DurationDaily = 86400,
   DurationWeekly = 604800,
   DurationMonthly = 2678400,
