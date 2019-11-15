@@ -201,7 +201,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-enum Duration : int64_t;
+typedef SWIFT_ENUM(int64_t, CardiacDuration, closed) {
+  CardiacDurationDaily = 86400,
+  CardiacDurationWeekly = 604800,
+  CardiacDurationMonthly = 2678400,
+  CardiacDurationAllTime = 0,
+};
+
 enum RecoveryTime : NSInteger;
 enum Scale : NSInteger;
 enum HeartZone : NSInteger;
@@ -215,7 +221,7 @@ SWIFT_CLASS("_TtC7Cronovo7Cronovo")
 - (NSArray<NSNumber *> * _Nonnull)getUserDetails SWIFT_WARN_UNUSED_RESULT;
 - (void)insertDummyDataWithData:(NSArray<NSNumber *> * _Nonnull)data ticks:(int64_t)ticks;
 - (NSString * _Nonnull)getRestingHeartRate SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)cardiacEfficiencyForTime:(enum Duration)forTime SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)cardiacEfficiencyForTime:(enum CardiacDuration)forTime SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getRRi SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getHRV SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getVO2Max SWIFT_WARN_UNUSED_RESULT;
@@ -225,13 +231,6 @@ SWIFT_CLASS("_TtC7Cronovo7Cronovo")
 - (NSDictionary * _Nonnull)trainingEffectWithAge:(NSInteger)Age StartTime:(int64_t)StartTime StopTime:(int64_t)StopTime SWIFT_WARN_UNUSED_RESULT;
 - (void)deleteData;
 @end
-
-typedef SWIFT_ENUM(int64_t, Duration, closed) {
-  DurationDaily = 86400,
-  DurationWeekly = 604800,
-  DurationMonthly = 2678400,
-  DurationAllTime = 0,
-};
 
 typedef SWIFT_ENUM(NSInteger, HeartZone, closed) {
   HeartZoneZone1 = 50,
@@ -459,7 +458,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-enum Duration : int64_t;
+typedef SWIFT_ENUM(int64_t, CardiacDuration, closed) {
+  CardiacDurationDaily = 86400,
+  CardiacDurationWeekly = 604800,
+  CardiacDurationMonthly = 2678400,
+  CardiacDurationAllTime = 0,
+};
+
 enum RecoveryTime : NSInteger;
 enum Scale : NSInteger;
 enum HeartZone : NSInteger;
@@ -473,7 +478,7 @@ SWIFT_CLASS("_TtC7Cronovo7Cronovo")
 - (NSArray<NSNumber *> * _Nonnull)getUserDetails SWIFT_WARN_UNUSED_RESULT;
 - (void)insertDummyDataWithData:(NSArray<NSNumber *> * _Nonnull)data ticks:(int64_t)ticks;
 - (NSString * _Nonnull)getRestingHeartRate SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)cardiacEfficiencyForTime:(enum Duration)forTime SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)cardiacEfficiencyForTime:(enum CardiacDuration)forTime SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getRRi SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getHRV SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getVO2Max SWIFT_WARN_UNUSED_RESULT;
@@ -483,13 +488,6 @@ SWIFT_CLASS("_TtC7Cronovo7Cronovo")
 - (NSDictionary * _Nonnull)trainingEffectWithAge:(NSInteger)Age StartTime:(int64_t)StartTime StopTime:(int64_t)StopTime SWIFT_WARN_UNUSED_RESULT;
 - (void)deleteData;
 @end
-
-typedef SWIFT_ENUM(int64_t, Duration, closed) {
-  DurationDaily = 86400,
-  DurationWeekly = 604800,
-  DurationMonthly = 2678400,
-  DurationAllTime = 0,
-};
 
 typedef SWIFT_ENUM(NSInteger, HeartZone, closed) {
   HeartZoneZone1 = 50,
