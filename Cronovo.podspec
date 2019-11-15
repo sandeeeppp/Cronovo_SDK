@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Cronovo"
-  spec.version      = "0.0.22"
+  spec.version      = "0.0.23"
   spec.summary      = "Cronovo is a simple swift framework."
 
   spec.homepage     = "https://github.com/sandeeeppp"
